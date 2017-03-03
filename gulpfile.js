@@ -3,8 +3,8 @@ var gulp = require('gulp'),
 	sass = require('gulp-sass');
 
 var paths = {
-	sass_src : "assets/sass",
-	sass_dest : "assets/css"
+	sass_src : "sass",
+	sass_dest : "css"
 }
 
 

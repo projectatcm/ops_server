@@ -16,7 +16,7 @@ class DbConnection {
     private $host = "localhost";
     private $username = "root";
     private $password = "";
-    private $database = "ops_server";
+    private $database = "police_db";
 
     public $connection;
 
