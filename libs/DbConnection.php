@@ -30,7 +30,7 @@ class DbConnection {
     }
 
     public function setData($query) {
-        $result = mysqli_query($this->connection, $query);
+        $result = mysqli_query($this->connection, $query) or die(mysqli_error($this->connection));
         return mysqli_insert_id($this->connection);
     }
 

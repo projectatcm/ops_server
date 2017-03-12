@@ -34,3 +34,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script src="js/rickshaw.js"></script>
 </head>
 <body>
+<div id="wrapper">
+     <!-- Navigation -->
+      <?php include "includes/navbar.php";?>
+        <div id="page-wrapper">

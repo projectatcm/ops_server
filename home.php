@@ -1,12 +1,7 @@
 <?php 
 $title = "Admin Home";
 include 'includes/header.php';
-
 ?>
-<div id="wrapper">
-     <!-- Navigation -->
-      <?php include "includes/navbar.php";?>
-        <div id="page-wrapper">
         <div class="graphs">
      	<div class="col_3">
         	<div class="col-md-3 widget widget1">

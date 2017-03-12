@@ -66,3 +66,25 @@ h2 {
   margin-bottom: 3rem;
   margin-left: 3rem;
   margin-right: 3rem; }
+
+/*------------*/
+/*--------------*/
+.container {
+  padding-bottom: 50px; }
+
+.news_thumb {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding-bottom: 10px; }
+  .news_thumb img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover; }
+  .news_thumb h4 {
+    margin: 15px 10px;
+    text-transform: uppercase; }
+  .news_thumb p {
+    margin: 10px;
+    font-size: 12px; }
+
+/*-----------------*/
