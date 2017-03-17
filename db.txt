@@ -21,12 +21,12 @@ location
 date
 status
 
-request
+law
 -------------
 id
+chapter
 title
-location
-date
+content
 
 user
 -----

@@ -1,3 +1,6 @@
+#page-wrapper {
+  background: #f8f8f8 !important; }
+
 /*---------
  * Login
  ---------*/
@@ -67,18 +70,28 @@ h2 {
   margin-left: 3rem;
   margin-right: 3rem; }
 
+.btn-delete {
+  font-size: 11px;
+  font-weight: normal;
+  text-transform: capitalize !important;
+  background: #f86067;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #fff; }
+  .btn-delete:hover {
+    color: #fff; }
+
 /*------------*/
 /*--------------*/
 .container {
   padding-bottom: 50px; }
 
 .news_thumb {
-  width: 100%;
   border: 1px solid #ccc;
   padding-bottom: 10px; }
   .news_thumb img {
     width: 100%;
-    max-height: 250px;
+    height: 250px;
     object-fit: cover; }
   .news_thumb h4 {
     margin: 15px 10px;
@@ -88,3 +101,35 @@ h2 {
     font-size: 12px; }
 
 /*-----------------*/
+/*
+* complaints
+ */
+.complaint_row a {
+  padding: 3px 10px;
+  margin: 0 !important; }
+  .complaint_row a:hover {
+    background: #4e5259 !important;
+    color: #f5f5f5 !important; }
+
+.paper_wrapper {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 20px 25px;
+  background: white; }
+  .paper_wrapper .title {
+    font-size: 22px; }
+  .paper_wrapper .date {
+    color: #ccc; }
+  .paper_wrapper .content p {
+    font-size: 14px; }
+  .paper_wrapper .info {
+    padding: 10px 0; }
+    .paper_wrapper .info ul {
+      list-style: none;
+      margin: 0;
+      padding: 0; }
+
+/*------------------*/
+.data-container {
+  width: 100%;
+  background: #fff !important; }

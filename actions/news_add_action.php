@@ -26,7 +26,7 @@ if(!empty($_FILES['image'])){
 	}
 }
 $news_id = $admin->addNews($title,$news,$image_save_path);
-header('location:../news.php?');
+header('location:../news.php');
 
 
 ?>

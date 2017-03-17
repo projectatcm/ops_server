@@ -13,7 +13,11 @@ $news_data = $admin->getNews();
 			<div class="col-sm-4">
 				<div class="news_thumb">
 					<img src="<?=$news['image']?>" />
-					<h4><?=$news['title']?></h4>
+					<h4><?=$news['title']?>
+						<a href="actions/news_delete_action.php?id=<?= $news['id']?>" class="btn btn-delete pull-right">
+							delete
+						</a>
+					</h4>
 					<p><?=$news['news']?></p>
 				</div>
 			</div>

@@ -20,9 +20,47 @@ class User extends DbConnection{
 
         return $this->setData($query);
     }
+
+public function getUser($user_id = ""){
+    if($user_id != ""){
+        $query = "SELECT * FROM users where id = '$user_id'";
+    }
+    $query = "SELECT * FROM users";
+    return $this->getData($query);
+}
+
     public function updateToken($id,$fcm_id){
     	$query = "UPDATE users set fcm_id = '$fcm_id' where id = '$id'";
     	return $this->setData($query);
+    }
+
+
+    public function addComplaint($user_id,$title,$content,$location,$date){
+         $query = "INSERT INTO complaint set user_id = '$user_id',
+                                        title = '$title',
+                                        content = '$content',
+                                        location = '$location',
+                                        `date`= '$date',
+                                        status = '0'";
+         return $this->setData($query);                                
+    }
+    public function addRequest($user_id,$title,$message,$address,$date){
+         $query = "INSERT INTO complaint set user_id = '$user_id',
+                                        title = '$title',
+                                        message = '$message',
+                                        address = '$address',
+                                        `date`= '$date',
+                                        status = '0'";
+         return $this->setData($query);                                
+    }
+
+    public function getComplaint($user_id,$status = ""){
+        if($status != ""){
+               $query = "select * from  complaint where user_id = '$user_id' and status = '$status'";
+           }else{
+               $query = "select * from  complaint where user_id = '$user_id'";
+           }
+        return $this->getData($query);
     }
 
 
