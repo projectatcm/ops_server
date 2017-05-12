@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Mar 17, 2017 at 06:50 AM
+-- Generation Time: May 12, 2017 at 12:39 PM
 -- Server version: 10.1.16-MariaDB
 -- PHP Version: 5.6.24
 
@@ -60,8 +60,8 @@ CREATE TABLE `complaint` (
 --
 
 INSERT INTO `complaint` (`id`, `user_id`, `title`, `content`, `location`, `date`, `status`) VALUES
-(1, 3, 'qweqeq', 'inematography Jayesh Nair\nEditor Dilip Dennies\n\nNorth 24 Kaatham songs / North 24 Kaatham full songs / North 24 Kaatham movie trailer / North 24 Kaatham teaser / North 24 Kaatham promo / North 24 Kaatham trailer / North 24 Kaatham theatrical trailer / North 24 Kaatham first look / North 24 Kaatham songs. Starring Fahadh Faasil / Fahadh Fasil ( Cartoon, D Company, Artist, Olipporu, 5 Sundarikal, Akam, Immanuel, Amen, Red Wine, Natholi Oru Cheriya Meenalla, Annayum Rasoolum, Diamond Necklace, 22 Female Kottayam, Indian Rupee, Chaappa Kurishu, Cocktail, Kerala Cafe, Kaiyethum Doorath) Swathi / Swati Reddy / Colours Swathi ( Amen, Vadacurry, Idharkuthane Aasaipattai Balakumara, Amali Thumali, Karthikeya, Poraali, Swamy Ra Ra, Sangarshana, Kandireega, Mirapakaay, KSD Appalaraju, Golconda High School, Kalavaramaye Madilo, Ananthapuram 1980, Love Journey, Ashta Chamma, Adavari Matalaku Ardhalu Verule, Danger) Nedumudi Venu ( Moneyback Policy Onachan, Isaac Newton S/O Philipose-Philipose, Puthiya Theerangal, Ithra Mathram, Bhoopadathil Illatha Oridam-Panchayat President, Friday-Purushothaman, Mr. Marumakan-Rajagopalan Thampy, Mayamohini, Akasathinte Niram, Vaadhyar, Thiruvambadi Thamban, Hero Thankachan, The King & the Commissioner, Achante Aanmakkal, Njanum Ente Familiyum, Unnam, Arabeem, Ottakom etc ) among others. Directed by Anil Radhakrishnan Menon and produced by C V Sarathi. Music composed by Govind Menon. Produced by E4 Entertainment.', '', '2017-03-15', 1),
-(2, 3, '6465', 'asd', '', '2017-03-15', 0);
+(1, 1, 'yqeue', 'uytqutqetqet qyetqetqyutqyutqyutyq qytytqyteuequtyquetuet yuteqytq', '', '2017-05-12', 1),
+(2, 1, 'uiqweuqi', 'uadiayd', '10.243699999999999,76.54999833333333', '2017-05-12', 0);
 
 -- --------------------------------------------------------
 
@@ -72,7 +72,7 @@ INSERT INTO `complaint` (`id`, `user_id`, `title`, `content`, `location`, `date`
 CREATE TABLE `contacts` (
   `id` int(11) NOT NULL,
   `name` varchar(255) COLLATE utf8_bin NOT NULL,
-  `number` varchar(255) COLLATE utf8_bin NOT NULL
+  `phone` varchar(255) COLLATE utf8_bin NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 
 -- --------------------------------------------------------
@@ -89,14 +89,6 @@ CREATE TABLE `news` (
   `date` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 
---
--- Dumping data for table `news`
---
-
-INSERT INTO `news` (`id`, `title`, `news`, `image`, `date`) VALUES
-(3, 'asasd', 'ada', 'images/news/148935754258c5cae62e1f3.jpg', '2017-03-12'),
-(5, 'à´‡à´¨àµà´¨àµà´®àµà´¤à´²àµâ€ à´ªà´£à´‚ à´ªà´¿à´¨àµâ€à´µà´²à´¿à´•àµà´•àµà´¨àµà´¨à´¤à´¿à´¨àµ à´¨à´¿à´¯à´¨àµà´¤àµà´°à´£à´®à´¿à´²àµà´² ', 'à´®àµà´‚à´¬àµˆ: à´‡à´¨àµà´¨àµ à´®àµà´¤à´²àµâ€ à´¬à´¾à´™àµà´•àµ à´…à´•àµà´•àµ—à´£àµà´Ÿàµà´•à´³à´¿à´²àµâ€à´¨à´¿à´¨àµà´¨àµà´‚ à´Žà´Ÿà´¿à´Žà´®àµà´®àµà´•à´³à´¿à´²àµâ€à´¨à´¿à´¨àµà´¨àµà´‚ à´ªà´£à´‚ à´ªà´¿à´¨àµâ€à´µà´²à´¿à´•àµà´•àµà´¨àµà´¨à´¤à´¿à´¨àµ à´¨à´¿à´¯à´¨àµà´¤àµà´°à´£à´®à´¿à´²àµà´². à´•àµ‡à´¨àµà´¦àµà´°à´¸à´°àµâ€à´•àµà´•à´¾à´°à´¿à´¨àµà´±àµ† à´¨àµ‹à´Ÿàµà´Ÿàµ à´…à´¸à´¾à´§àµà´µà´¾à´•àµà´•à´²à´¿à´¨àµ† à´¤àµà´Ÿà´°àµâ€à´¨àµà´¨àµ à´†à´°àµâ€à´¬à´¿à´ à´à´°àµâ€à´ªàµà´ªàµ†à´Ÿàµà´¤àµà´¤à´¿à´¯ à´¨à´¿à´¯à´¨àµà´¤àµà´°à´£à´™àµà´™à´³àµ†à´²àµà´²à´¾à´‚ à´…à´µà´¸à´¾à´¨à´¿à´šàµà´šàµ. à´…à´¤àµ‡à´¸à´®à´¯à´‚, à´ªà´£à´‚à´ªà´¿à´¨àµâ€à´µà´²à´¿à´•àµà´•àµà´¨àµà´¨à´¤à´¿à´¨àµà´³àµà´³ à´ªà´°à´¿à´§à´¿ à´¸à´‚à´¬à´¨àµà´§à´¿à´šàµà´šàµâ€Œ à´…à´¤à´¤àµ à´¬à´¾à´™àµà´•àµà´•à´³àµâ€à´•àµà´•àµ à´¤àµ€à´°àµà´®à´¾à´¨à´®àµ†à´Ÿàµà´•àµà´•à´¾à´‚. à´¨à´¾à´²àµ à´®à´¾à´¸à´‚à´¨àµ€à´£àµà´Ÿ à´¨à´¿à´¯à´¨àµà´¤àµà´°à´£à´™àµà´™à´³àµâ€à´•àµà´•à´¾à´£àµ à´…à´µà´¸à´¾à´¨à´®à´¾à´•àµà´¨àµà´¨à´¤àµ.\r\n\r\nà´‡à´¨àµà´¨àµ à´®àµà´¤à´²àµâ€ à´¸àµ‡à´µà´¿à´™àµà´¸àµ à´…à´•àµà´•àµ—à´£àµà´Ÿàµà´•à´³à´¿à´²àµâ€à´¨à´¿à´¨àµà´¨àµà´³àµâ€à´ªàµà´ªàµ†à´Ÿàµ† à´ªà´£à´‚ à´ªà´¿à´¨àµâ€à´µà´²à´¿à´•àµà´•àµà´¨àµà´¨à´¤à´¿à´¨àµà´³àµà´³ à´ªà´°à´¿à´§à´¿ à´‰à´£àµà´Ÿà´¾à´µà´¿à´²àµà´². à´‡à´°àµà´ªà´¤à´¿à´¨à´¾à´²à´¾à´¯à´¿à´°à´®à´¾à´¯à´¿à´°àµà´¨àµà´¨àµ à´¸àµ‡à´µà´¿à´™àµà´¸àµ à´…à´•àµà´•àµ—à´£àµà´Ÿà´¿à´²àµâ€à´¨à´¿à´¨àµà´¨àµà´‚ à´†à´´àµà´šà´¯à´¿à´²àµâ€ à´ªà´¿à´¨àµâ€à´µà´²à´¿à´•àµà´•à´¾à´µàµà´¨àµà´¨ à´¤àµà´•. à´Žà´¨àµà´¨à´¾à´²àµâ€ à´•à´´à´¿à´žàµà´žà´®à´¾à´¸à´‚ 20à´¨àµ à´…à´¨àµâ€à´ªà´¤à´¿à´¨à´¾à´¯à´¿à´°à´®à´¾à´¯à´¿ à´‰à´¯à´°àµâ€à´¤àµà´¤à´¿à´¯à´¿à´°àµà´¨àµà´¨àµ. à´Žà´Ÿà´¿à´Žà´®àµà´®àµà´•à´³à´¿à´²àµâ€à´¨à´¿à´¨àµà´¨àµà´‚ à´ªàµà´°à´¤à´¿à´¦à´¿à´¨à´‚ à´ªà´¿à´¨àµâ€à´µà´²à´¿à´•àµà´•à´¾à´µàµà´¨àµà´¨à´¤àµà´• à´°à´£àµà´Ÿà´¾à´¯à´¿à´°à´¤àµà´¤à´¿ à´…à´žàµà´žàµ‚à´±à´¿à´²àµâ€à´¨à´¿à´¨àµà´¨àµ à´†à´¦àµà´¯à´‚ à´¨à´¾à´²à´¾à´¯à´¿à´°à´¤àµà´¤à´¿ à´…à´žàµà´žàµ‚à´±à´¾à´¯àµà´‚ à´ªà´¿à´¨àµà´¨àµ€à´Ÿàµ à´ªà´¤à´¿à´¨à´¾à´¯à´¿à´°à´®à´¾à´¯àµà´‚ à´¨à´¿à´¶àµà´šà´¯à´¿à´šàµà´šà´¿à´°àµà´¨àµà´¨àµ. à´ˆ à´ªà´°à´¿à´§à´¿à´•à´³à´¾à´£àµ à´…à´µà´¸à´¾à´¨à´¿à´•àµà´•àµà´¨àµà´¨à´¤àµ.\r\n\r\nà´•à´±à´¨àµà´±àµ, à´•àµà´¯à´¾à´·àµ à´•àµà´°àµ†à´¡à´¿à´±àµà´±àµ, à´“à´µà´°àµâ€à´¡àµà´°à´¾à´«àµà´±àµà´±àµ à´…à´•àµà´•àµ—à´£àµà´Ÿàµà´•à´³àµâ€à´•àµà´•àµà´‚ à´¨à´¿à´²à´µà´¿à´²àµà´£àµà´Ÿà´¾à´¯à´¿à´°àµà´¨àµà´¨ à´Žà´²àµà´²à´¾ à´¨à´¿à´¯à´¨àµà´¤àµà´°à´£à´µàµà´‚ à´…à´µà´¸à´¾à´¨à´¿à´šàµà´šàµ. à´Žà´¨àµà´¨à´¾à´²àµâ€ à´ªà´£à´‚à´ªà´¿à´¨àµâ€à´µà´²à´¿à´•àµà´•àµà´¨àµà´¨à´¤à´¿à´¨àµà´³àµà´³ à´ªà´°à´¿à´§à´¿à´¸à´‚à´¬à´¨àµà´§à´¿à´šàµà´šàµâ€Œ à´…à´¤à´¤àµ à´¬à´¾à´™àµà´•àµà´•à´³àµâ€à´•àµà´•àµ à´‡à´¨à´¿ à´¤àµ€à´°àµà´®à´¾à´¨à´®àµ†à´Ÿàµà´•àµà´•à´¾à´¨à´¾à´•àµà´‚. à´¨àµ‹à´Ÿàµà´Ÿàµ à´ªà´¿à´¨àµâ€à´µà´²à´¿à´šàµà´šà´¤àµ‹à´Ÿàµ†à´¯àµà´£àµà´Ÿà´¾à´¯ à´ªàµà´°à´¤à´¿à´¸à´¨àµà´§à´¿à´•à´³àµâ€ à´…à´µà´¸à´¾à´¨à´¿à´•àµà´•àµà´¨àµà´¨ à´¸à´¾à´¹à´šà´°àµà´¯à´¤àµà´¤à´¿à´²àµâ€ à´Žà´²àµà´²à´¾ à´¨à´¿à´¯à´¨àµà´¤àµà´°à´£à´µàµà´‚ à´ªà´¿à´¨àµâ€à´µà´²à´¿à´•àµà´•àµà´®àµ†à´¨àµà´¨àµ à´•à´´à´¿à´žàµà´žà´®à´¾à´¸à´¤àµà´¤àµ† à´ªà´£à´µà´¾à´¯àµà´ªà´¾ à´…à´µà´²àµ‹à´•à´¨à´¤àµà´¤à´¿à´¨àµ à´¶àµ‡à´·à´®à´¾à´£àµ à´†à´°àµâ€à´¬à´¿à´ à´ªàµà´°à´–àµà´¯à´¾à´ªà´¿à´šàµà´šà´¤àµ.', 'images/news/148939030958c64ae57d847.jpg', '2017-03-13');
-
 -- --------------------------------------------------------
 
 --
@@ -105,10 +97,11 @@ INSERT INTO `news` (`id`, `title`, `news`, `image`, `date`) VALUES
 
 CREATE TABLE `request` (
   `id` int(11) NOT NULL,
+  `user_id` int(11) NOT NULL,
   `title` varchar(255) COLLATE utf8_bin NOT NULL,
   `message` varchar(255) COLLATE utf8_bin NOT NULL,
-  `address` varchar(255) COLLATE utf8_bin NOT NULL,
-  `date` date NOT NULL
+  `date` date NOT NULL,
+  `status` int(1) NOT NULL DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 
 -- --------------------------------------------------------
@@ -133,7 +126,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `mobile`, `password`, `aadhar`, `device_id`, `fcm_id`) VALUES
-(3, 'prasanth', 'prasanth@codemagos.com', '9072388801', '123456', '646789', '6f39b944981c6266', 'cEWk9mNEskk:APA91bHZiXpZBmjBhopVVyOqz7JPhM8Jc8t3i4nNmaPURDASgWugtoNXhqK3JtJSWgf_Q7aqNxHymhK3snUqBDfnRvuJqBCY13Qpy9YZntzQN9I6qUPq5_Wmyc0pQ7r57zntGdOzYPi9');
+(1, 'Prasanth', 'prasanth@gmail.com', '9876543211', '123456', '98744', '35304f916321844e', 'e3gXJIo3P0M:APA91bH7DC5OOHL0equq-UZDlusp0GsuicvzzKU_y7cDEUou6pzaoZJl82hZ0P1Twp5BKYt7pNdWUfQOCLLqhh7s6-AQ-lmNbg3_NMT-NjDF_wnmxxd7HbLVooChVHapz8DxU4jyypbv');
 
 --
 -- Indexes for dumped tables
@@ -161,6 +154,12 @@ ALTER TABLE `contacts`
 -- Indexes for table `news`
 --
 ALTER TABLE `news`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `request`
+--
+ALTER TABLE `request`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -192,12 +191,17 @@ ALTER TABLE `contacts`
 -- AUTO_INCREMENT for table `news`
 --
 ALTER TABLE `news`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+--
+-- AUTO_INCREMENT for table `request`
+--
+ALTER TABLE `request`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 --
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
