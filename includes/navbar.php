@@ -32,6 +32,16 @@
                             <!-- /.nav-second-level -->
                         </li>
                           <li>
+                            <a href="#"><i class="fa fa-laptop nav_icon"></i>Request's<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="request.php">View all</a>
+                                </li>
+                               
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                         <li>
                             <a href="#"><i class="fa fa-laptop nav_icon"></i>Complaint's<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
@@ -39,6 +49,10 @@
                                 </li>
                                
                             </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                         <li>
+                            <a href="contacts.php"><i class="fa fa-laptop nav_icon"></i>Contacts's<span class="fa arrow"></span></a>
                             <!-- /.nav-second-level -->
                         </li>
                     </ul>

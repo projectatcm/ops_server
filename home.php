@@ -8,8 +8,8 @@ include 'includes/header.php';
         		<div class="r3_counter_box">
                     <i class="pull-left fa fa-thumbs-up icon-rounded"></i>
                     <div class="stats">
-                      <h5><strong>45%</strong></h5>
-                      <span>New Orders</span>
+                      <h5><strong>4</strong></h5>
+                      <span>Complaints</span>
                     </div>
                 </div>
         	</div>
@@ -17,8 +17,8 @@ include 'includes/header.php';
         		<div class="r3_counter_box">
                     <i class="pull-left fa fa-users user1 icon-rounded"></i>
                     <div class="stats">
-                      <h5><strong>1019</strong></h5>
-                      <span>New Visitors</span>
+                      <h5><strong>10</strong></h5>
+                      <span>Requests</span>
                     </div>
                 </div>
         	</div>
@@ -26,8 +26,8 @@ include 'includes/header.php';
         		<div class="r3_counter_box">
                     <i class="pull-left fa fa-comment user2 icon-rounded"></i>
                     <div class="stats">
-                      <h5><strong>1012</strong></h5>
-                      <span>New Users</span>
+                      <h5><strong>15</strong></h5>
+                      <span>Users</span>
                     </div>
                 </div>
         	</div>
@@ -35,8 +35,8 @@ include 'includes/header.php';
         		<div class="r3_counter_box">
                     <i class="pull-left fa fa-dollar dollar1 icon-rounded"></i>
                     <div class="stats">
-                      <h5><strong>$450</strong></h5>
-                      <span>Profit Today</span>
+                      <h5><strong>30</strong></h5>
+                      <span>Contacts</span>
                     </div>
                 </div>
         	 </div>

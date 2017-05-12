@@ -44,13 +44,11 @@ public function getUser($user_id = ""){
                                         status = '0'";
          return $this->setData($query);                                
     }
-    public function addRequest($user_id,$title,$message,$address,$date){
-         $query = "INSERT INTO complaint set user_id = '$user_id',
+    public function addRequest($user_id,$title,$message,$date){
+         $query = "INSERT INTO request set user_id = '$user_id',
                                         title = '$title',
                                         message = '$message',
-                                        address = '$address',
-                                        `date`= '$date',
-                                        status = '0'";
+                                        `date` = '$date'";
          return $this->setData($query);                                
     }
 

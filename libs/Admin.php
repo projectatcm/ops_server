@@ -14,6 +14,10 @@ class Admin extends Dbconnection {
     	$query = "INSERT INTO news set title = '$title', news = '$news', image = '$image', date = '$date'";
 		return 	$this->setData($query);
     }
+     public function addContact($name,$phone){
+        $query = "INSERT INTO contacts set name = '$name', phone = '$phone'";
+        return  $this->setData($query);
+    }
 
     public function getNews($id = ""){
     	if(empty($id)){
@@ -22,6 +26,18 @@ class Admin extends Dbconnection {
     		$query = "SELECT * FROM news where id = '$id'";
     	}
     	        return $this->getData($query);
+    }
+    public function getContacts($key = ""){
+        if(empty($id)){
+            $query = "SELECT * FROM contacts";
+        }else{
+            $query = "SELECT * FROM contacts where name like  '%$id%'";
+        }
+                return $this->getData($query);
+    }
+   public function deleteContact($id){
+        $query = "DELETE FROM contacts WHERE id = '$id'";
+        return  $this->setData($query);
     }
     public function deleteNews($id){
     	$date = date('Y-m-d');
@@ -37,6 +53,16 @@ class Admin extends Dbconnection {
            }
         return $this->getData($query);
     }
+     public function getRequest($id = ""){
+        if($id != ""){
+               $query = "select * from  request where id = '$id'";
+           }else{
+               $query = "select * from  request where status = '0' ORDER BY date DESC";
+           }
+        return $this->getData($query);
+    }
+
+
 
 
     public function updateStatus($id,$status){

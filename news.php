@@ -6,7 +6,7 @@ include 'includes/header.php';
 $news_data = $admin->getNews();
 ?>
 <br>
-<div class="container">
+<div class="container-fluid">
 	<h3 class="page-header">News</h3>
 	<div class="row">
 		<?php foreach ($news_data as $news): ?>
@@ -25,6 +25,8 @@ $news_data = $admin->getNews();
 	</div>
 </div>
 <div class="clearfix"> </div>
+<br>
+<br>
 </div>
 </div>
 <!-- /#page-wrapper -->
